@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+:root {
+    --cor01: #C92071;
+    --cor02: #474747;
+    --font01: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+p, a {
+    font-family: var(--font01);
+    font-size: small;
+    font-weight: bold;
+}
+
+.main-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    flex-wrap: wrap; 
+    margin: 32px 34px;
+    padding-left: 10px;
+    
+    
+}
+
+.logo-digital { 
+    /* width: 253px;
+    height: 44px;   */
+  
+    
+} 
+
+input {
+    background-color: rgba(117, 117, 117, 0.274);
+    border: 0.5px  #fff;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 559px;
+    height: 60px;
+    flex-basis: 50%;
+   
+}
+.pesquisa::placeholder {
+    color: darkgrey;
+    padding-left: 15px;
+}
+
+.search-img {
+    max-width: 100%;
+    width: 24px;
+    height: 24px;
+    
+}
+
+.cadastro {
+   color: darkgray;
+  
+}
+
+.entrar {
+    color: white;
+    font-size: x-small;
+    background-color: var(--cor01);
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #C92071;
+    border-radius: 5px;
+    
+    
+}
+
+.kart-button {
+    border: none;
+    background-color: white;
+    position: relative;
+}
+
+.kart-button span {
+    color: white;
+    font-size: x-small;
+    background-color: #C92071;
+    padding: 3px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: -5px;
+}
+
+nav {
+    margin-left: 30px;
+}
+
+nav a {
+    color: #474747;
+    text-decoration: none;
+    padding-left: 15px;
+}
+ nav a:active {
+    color: #C92071;
+    text-decoration: underline;
+ }
+
+
+  
