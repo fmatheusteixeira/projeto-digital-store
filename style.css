@@ -138,7 +138,7 @@ nav a:hover {
 
 /* CONTAINER PRINCIPAL */
 
- .container {
+ .main-container {
     display: flex;
     flex-shrink: 0;
     background-color: var(--cor03);
@@ -149,7 +149,7 @@ nav a:hover {
     width: 100%;
  }
 
- .container .estoque {
+ .main-container .estoque {
     max-width: 500px;
     height: 400px;
     position: absolute;
@@ -221,4 +221,106 @@ nav a:hover {
     opacity: 40%;
  }
 
+ /* DESTAQUES */
+
+ .container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+
+  .title {   
+    color: var(--cor02);
+    /* Text Large Bold */
+    font-size: 24px;
+    font-family: 'Inter';
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+    margin-left: 90px;
+    margin-top: 38px;
+    margin-bottom: 20px;
+    
+  }
+
+  .item {
+    border: 1px solid #D8E3F2;
+    border-radius: 8px;
+    background: #D8E3F2;
+    width: 400px;
+    height: 250px;
+    flex-shrink: 0;
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+
+  .item-1 {
+    background: #D8E3F2 url(imagens/main/star-wars-storm-trooper-supreme-shirts-supreme-t-shirt-snoopy-clothing-apparel-t-shirt-text-transparent-png-616696\ 1.png) no-repeat right bottom;    
+  }
+
+  .item-2 {
+    background: #D8E3F2 url(imagens/main/ddd\ 1.png) no-repeat right bottom;
+  }
+
+  .item-3 {
+    background: #D8E3F2 url(imagens/main/d9db11953a2d185d37246bb1f500c957\ 1.png) no-repeat right bottom;
+  }
+
+  .content-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: 'Inter', sans-serif;
+    padding-left: 25px;
+    
+    
+  }
+
+  .item-1 p#off {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    display: inline-flex;
+    border-radius: 29px;
+    background: #E7FF86;
+    border: 1px solid #E7FF86;
+    padding: 5px 15px;
+    margin-left: 25px;
+    margin-top: 34px;
+  }
+  .content-1 h2 {   
+    width: 172px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .buy-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 153px;
+    height: 48px;       
+  }
+
+  .buy-button a {
+    color: #C92071;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+  }
   
