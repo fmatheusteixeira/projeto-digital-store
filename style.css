@@ -53,7 +53,7 @@ header > p, a {
 .input-image input[type="text"] {
 
     padding-right: 30px; /* Espaço para a imagem */
-    background-image: url(imagens/Search.png);
+    background-image: url(imagens/header/Search.png);
     margin-right: 5px;
     background-repeat: no-repeat;
     background-position: right center;
@@ -136,19 +136,22 @@ nav a:hover {
     text-decoration: underline;
  }
 
+/* CONTAINER PRINCIPAL */
+
  .container {
     display: flex;
+    flex-shrink: 0;
     background-color: var(--cor03);
     margin-top: 15px;
-    height: 680px;
+    height: 681px;
     position: relative;
     max-width: 1440px;
     width: 100%;
  }
 
  .container .estoque {
-    max-width: 467px;
-    height: 320px;
+    max-width: 500px;
+    height: 400px;
     position: absolute;
     top: 150px;
     left: 80px;
@@ -196,19 +199,25 @@ nav a:hover {
     padding: 10px 40px;
  }
   
- .white-snkrs img {
-   
+ .white-snkrs {
+    background: url(imagens/main/White-Sneakers-PNG-Clipart\ 1.png) no-repeat 100%;
+    margin-left: 513px;
+    margin-top: 10px;
+    margin-right: 91px;
+    
+    /* transform: rotate(-19.34deg); */
+    flex-shrink: 0;
     width: 733px;
-    height: 431px;
-    position: absolute;
-    top: 150px;
-    left: 513px;   
+    height: 681px;
+    
  }
 
  .ornament {
-    position: absolute;
-    top: 100px;
-    left: 1190px;
+    width: 140px;
+    height: 140px;
+    margin-left: -150px;
+    margin-top: 78px;
+    margin-bottom: 463px;
     opacity: 40%;
  }
 
