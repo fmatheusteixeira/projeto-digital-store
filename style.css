@@ -20,7 +20,6 @@
 
 body {
     width: 100%;
-    max-width: 1440px;
 }
 
 header > p, a {
@@ -30,33 +29,32 @@ header > p, a {
 
 .main-header-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;   
     flex-wrap: wrap; 
     margin: 32px 34px;
     padding-left: 10px;
-    
     
 }
 
 .logo-digital { 
     width: 253px;
     height: 44px;   
-  
-    
-} 
-.input-image {
-    position: relative;
-    flex-basis: 50%;
+    margin-right: 27px;   
 }
 
-.input-image input[type="text"] {
+.input-image {
+    flex-basis: 50%;
+    margin-right: 48px;
+    width: 559px;
+}
+
+.input-image input[type="search"] {
 
     padding-right: 30px; /* Espaço para a imagem */
     background-image: url(imagens/header/Search.png);
     margin-right: 5px;
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: 98% center;
     background-size: 24px 24px; /* Tamanho da imagem */
 }
 
@@ -64,9 +62,9 @@ header > p, a {
     background-color: rgba(144, 144, 144, 0.194);
     border: 0.5px  #fff;
     border-radius: 8px;
-    max-width: 559px;
     width: 100%;
     height: 60px;
+    padding: 0px 24px;
           
 }
 
@@ -84,7 +82,6 @@ header > p, a {
 
 .cadastro {
    color: darkgray;
-   padding-left: 30px;
   
 }
 
@@ -96,8 +93,8 @@ header > p, a {
     padding: 10px 15px;
     border: 1px solid #C92071;
     border-radius: 5px;
-    
-    
+    margin-left: 30px;
+    margin-right: 72px; 
 }
 
 .kart-button {
@@ -107,14 +104,17 @@ header > p, a {
 }
 
 .kart-button span {
+    display: block;
     color: white;
-    font-size: x-small;
+    font-size: 10px;
     background-color: #C92071;
-    padding: 3px;
+    width: 17px;
+    height: 17px;
     border-radius: 50%;
+    line-height: 17px;
     position: absolute;
-    left: 20px;
-    top: -5px;
+    left: 14px;
+    top: -7px;
 }
 
 nav {
@@ -145,7 +145,7 @@ nav a:hover {
     margin-top: 15px;
     height: 681px;
     position: relative;
-    max-width: 1440px;
+    max-width: 1531px;
     width: 100%;
  }
 
@@ -322,5 +322,4 @@ nav a:hover {
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.75px;
-  }
   
