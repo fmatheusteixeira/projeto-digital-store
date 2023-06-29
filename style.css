@@ -9,6 +9,7 @@
     --cor02: #474747;
     --cor03: #F5F5F5;
     --cor04: #F6AA1C;
+    --cor05: #1F1F1F;
     --font01: 'Inter', sans-serif;
 }
 
@@ -85,7 +86,7 @@ header > p, a {
   
 }
 
-.entrar {
+.enter {
     color: white;
     font-size: x-small;
     background-color: var(--cor01);
@@ -119,12 +120,14 @@ header > p, a {
 
 nav {
     margin-left: 30px;
+    margin-bottom: 32px;
 }
 
 nav a {
     color: #474747;
     text-decoration: none;
     padding-left: 15px;
+    
 }
 nav a:hover {
     color: #C92071;
@@ -138,88 +141,75 @@ nav a:hover {
 
 /* CONTAINER PRINCIPAL */
 
- .main-container {
-    display: flex;
-    flex-shrink: 0;
-    background-color: var(--cor03);
-    margin-top: 15px;
-    height: 681px;
-    position: relative;
-    max-width: 1531px;
-    width: 100%;
- }
+.main-container {
+  /* background: lightblue url(imagens/main/Design\ sem\ nome.svg) no-repeat right center; */
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #F5F5F5;
+  height: 680px;
+  position: relative;
+}
 
- .main-container .estoque {
-    max-width: 500px;
-    height: 400px;
-    position: absolute;
-    top: 150px;
-    left: 80px;
-    
- }
+#text {
+  margin-left: 100px;
+  padding-right: 20px;
+}
 
- .estoque > h1 {
-    font-family: var(--font01);
-    font-size: 64px;
-    font-weight: 800;
-    line-height: 66px;
-    letter-spacing: 1px;
-    padding-top: 0px;
-    padding-bottom: 20px;
- }
+#text #ofertas {
+  color: #F6AA1C;
+  font-size: 16px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
 
- .estoque p#ofertas {
-    color: var(--cor04);
-    padding-bottom: 20px;
-    font-family: var(--font01);
-    font-size: small;
-    font-weight: 700;
- }
+#text h1 {
+  color: var(--cor05);
+  font-size: 64px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  line-height: 66px;
+  letter-spacing: 1px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
- .estoque p#descricao {
-    color: var(--cor02);
-    padding-bottom: 40px;
-    font-family: var(--font01);
-    font-size: medium;
-    font-weight: 400;
-    line-height: 34px;
-    letter-spacing: 0.75px;
- }
+#text #lorem-text {
+  color: var(--cor05);
+  font-size: 18px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.75px;
+  padding-bottom: 40px;
+}
 
- .estoque a {
-    color: #F5F5F5;
-    font-family: var(--font01);
-    font-size: small;
-    font-weight: 700;
-    line-height: 24px;
-    text-decoration: none;
-    background-color: #C92071;
-    border: 1px solid #C92071;
-    border-radius: 10px;
-    padding: 10px 40px;
- }
-  
- .white-snkrs {
-    background: url(imagens/main/White-Sneakers-PNG-Clipart\ 1.png) no-repeat 100%;
-    margin-left: 513px;
-    margin-top: 10px;
-    margin-right: 91px;
-    
-    /* transform: rotate(-19.34deg); */
-    flex-shrink: 0;
-    width: 733px;
-    height: 681px;
-    
- }
+.button {
+  display: inline-block;
+  color: var(--cor03);
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 700;
+  background-color: #C92071;
+  border: 1px solid #C92071;
+  border-radius: 8px;
+  width: 220px;
+  height: 48px;
+  line-height: 48px;
+  letter-spacing: 0.75px;
+}
 
- .ornament {
-    width: 140px;
-    height: 140px;
-    margin-left: -150px;
-    margin-top: 78px;
-    margin-bottom: 463px;
-    opacity: 40%;
- }
+#image {
+  /* transform: rotate(-19.343deg); */
+
+}
 
  /* DESTAQUES */
 
