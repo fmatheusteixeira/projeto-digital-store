@@ -21,6 +21,7 @@
 
 body {
     /* width: 100%; */
+    background-color: #F9F8FE;
 }
 
 header > p, a {
@@ -163,6 +164,7 @@ nav a:hover {
 
 #text {
   margin-left: 100px;
+  padding-right: 100px;
 }
 
 #text #ofertas {
@@ -257,10 +259,10 @@ nav a:hover {
     border: 1px solid #D8E3F2;
     border-radius: 8px;
     background: #D8E3F2;
-    width: 370px;
+    width: 405px;
     height: 250px;
     flex-shrink: 0;
-    margin-right: 12px;
+    margin-right: 32px;
     margin-bottom: 12px;
   }
 
@@ -331,7 +333,7 @@ nav a:hover {
     letter-spacing: 0.75px;
   }
 
-  /* DESTAQUES-2 */
+  /* container-3 */
 
 #destaque-2 {
   margin: 0;
@@ -341,42 +343,112 @@ nav a:hover {
 .container-3 {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
   /* margin: 20px 360px; */
 
 }
 
 .icon {
-  width: 64px;
-  height: 64px;
-  background-color: lightblue;
-  border: 1px solid white;
+  width: 104px;
+  height: 104px;
+  background-color: #fff;
+  border: 1px solid #fff;
   border-radius: 50%;
+  box-shadow: 0px 0px 15px rgba(46, 46, 46, 0.225);
   margin-top: 40px;
-  padding-right: 88px;
+  margin-right: 48px;
 }
 
 .item-4 {
-  background: url(imagens/main/tshirt.svg) no-repeat center center;
-  background-size: 100% 100%;
+  background: #fff url(imagens/main/tshirt.svg) no-repeat center center;
+  
 
 }
 
 .item-5 {
-  background: url(imagens/main/pants.svg) no-repeat center center;
-  background-size: 100% 100%;
+  background: #fff url(imagens/main/pants.svg) no-repeat center center;
+  
 }
 
 .item-6 {
-  background: url(imagens/main/pants.svg) no-repeat center center;
-  background-size: 100% 100%;
+  background: #fff url(imagens/main/pants.svg) no-repeat center center;
+  
 }
 
 .item-7 {
-  background: url(imagens/main/headphones.svg) no-repeat center center;
-  background-size: 100% 100%;
+  background: #fff url(imagens/main/headphones.svg) no-repeat center center;
+  
 }
 
 .item-8 {
-  background: url(imagens/main/sneakers.svg) no-repeat center center;
-  background-size: 80% 77%;
+  background: #fff url(imagens/main/sneakers.svg) no-repeat center center;
+ 
 }
+
+.subtitulo{
+  padding-top: 10px;
+  margin-left: 327px;
+  margin-right: 396px;
+}
+.subtitulo ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.subtitulo #p1 {
+  padding-right: 86px;
+}
+
+.subtitulo #p2 {
+  padding-right: 104px;
+}
+
+.subtitulo #p3 {
+  padding-right: 82px;
+}
+
+.subtitulo #p4 {
+  padding-right: 85px;
+}
+
+.subtitulo #p5 {
+  
+}
+
+.subtitulo a {
+  color: var(--cor05);
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+}
+
+/* Container-4 */
+
+#portfolio {
+  margin-top: 123px;
+}
+
+.container-4 {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+}
+
+.shoes {
+  width: 292px;
+  height: 321px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background: #fff url(imagens/main/tenis-produto.png) no-repeat center center;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
