@@ -20,7 +20,7 @@
 }
 
 body {
-    width: 100%;
+    /* width: 100%; */
 }
 
 header > p, a {
@@ -32,9 +32,10 @@ header > p, a {
     display: flex;
     align-items: center;   
     flex-wrap: wrap; 
-    margin: 32px 34px;
-    padding-left: 10px;
-    
+    margin-left: 104px;
+    margin-top: 42px;
+    margin-bottom: 40px;
+   
 }
 
 .logo-digital { 
@@ -44,7 +45,7 @@ header > p, a {
 }
 
 .input-image {
-    flex-basis: 50%;
+    flex-basis: 40%;
     margin-right: 48px;
     width: 559px;
 }
@@ -86,21 +87,24 @@ header > p, a {
   
 }
 
-.enter {
-    color: white;
+input[type="button"] {
+    color: var(--cor03);
+    font-family: 'Inter';
     font-size: x-small;
+    font-weight: 700;
+    letter-spacing: 0.75px;
     background-color: var(--cor01);
-    text-decoration: none;
-    padding: 10px 15px;
+    padding: 10px 25px;
     border: 1px solid #C92071;
     border-radius: 5px;
     margin-left: 30px;
     margin-right: 72px; 
+    cursor: pointer; 
 }
-
 .kart-button {
     border: none;
     background-color: white;
+    margin-right: 104px;
     position: relative;
 }
 
@@ -118,17 +122,23 @@ header > p, a {
     top: -7px;
 }
 
-nav {
-    margin-left: 30px;
+nav ul {
+    display: flex;   
+    list-style: none;
+    margin-left: 104px;
     margin-bottom: 32px;
+}
+
+nav li {
+    padding-right: 32px;
+    
 }
 
 nav a {
     color: #474747;
-    text-decoration: none;
-    padding-left: 15px;
-    
+    text-decoration: none;  
 }
+
 nav a:hover {
     color: #C92071;
     text-decoration: underline;
@@ -136,6 +146,7 @@ nav a:hover {
 
  nav a:active {
     color: #C92071;
+    font-weight: bold;
     text-decoration: underline;
  }
 
@@ -147,13 +158,11 @@ nav a:hover {
   align-items: center;
   flex-wrap: wrap;
   background-color: #F5F5F5;
-  height: 680px;
-  position: relative;
+  height: 681px;
 }
 
 #text {
   margin-left: 100px;
-  padding-right: 20px;
 }
 
 #text #ofertas {
@@ -206,12 +215,19 @@ nav a:hover {
   letter-spacing: 0.75px;
 }
 
-#image {
-  /* transform: rotate(-19.343deg); */
+#jordan-image img {
+    margin-right: 91px;
+} 
 
+
+.content3 img {
+    position: absolute;
+    right: 35px;
+    top: 300px;
+    flex-basis: 20%;
 }
 
- /* DESTAQUES */
+ /* DESTAQUES-1 */
 
  .container-2 {
     display: flex;
@@ -219,6 +235,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin: 20px 55px 95px;
     
   }
 
@@ -230,7 +247,7 @@ nav a:hover {
     font-weight: 700;
     line-height: 38px;
     letter-spacing: 0.75px;
-    margin-left: 90px;
+    margin-left: 100px;
     margin-top: 38px;
     margin-bottom: 20px;
     
@@ -240,7 +257,7 @@ nav a:hover {
     border: 1px solid #D8E3F2;
     border-radius: 8px;
     background: #D8E3F2;
-    width: 400px;
+    width: 370px;
     height: 250px;
     flex-shrink: 0;
     margin-right: 12px;
@@ -248,18 +265,18 @@ nav a:hover {
   }
 
   .item-1 {
-    background: #D8E3F2 url(imagens/main/star-wars-storm-trooper-supreme-shirts-supreme-t-shirt-snoopy-clothing-apparel-t-shirt-text-transparent-png-616696\ 1.png) no-repeat right bottom;    
+    background: #D8E3F2 url(imagens/main/camisa-starwars.png) no-repeat right bottom;    
   }
 
   .item-2 {
-    background: #D8E3F2 url(imagens/main/ddd\ 1.png) no-repeat right bottom;
+    background: #D8E3F2 url(imagens/main/tenis.png) no-repeat right bottom;
   }
 
   .item-3 {
-    background: #D8E3F2 url(imagens/main/d9db11953a2d185d37246bb1f500c957\ 1.png) no-repeat right bottom;
+    background: #D8E3F2 url(imagens/main/headphone.png) no-repeat right bottom;
   }
 
-  .content-1 {
+  .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -270,7 +287,7 @@ nav a:hover {
     
   }
 
-  .item-1 p#off {
+  .item p#off {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 700;
@@ -284,9 +301,9 @@ nav a:hover {
     margin-left: 25px;
     margin-top: 34px;
   }
-  .content-1 h2 {   
-    width: 172px;
-    font-size: 32px;
+  .content h3 {   
+    width: 184px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 36px;
     letter-spacing: 1px;
@@ -312,4 +329,54 @@ nav a:hover {
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.75px;
-  
+  }
+
+  /* DESTAQUES-2 */
+
+#destaque-2 {
+  margin: 0;
+  text-align: center;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: center;
+  /* margin: 20px 360px; */
+
+}
+
+.icon {
+  width: 64px;
+  height: 64px;
+  background-color: lightblue;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-top: 40px;
+  padding-right: 88px;
+}
+
+.item-4 {
+  background: url(imagens/main/tshirt.svg) no-repeat center center;
+  background-size: 100% 100%;
+
+}
+
+.item-5 {
+  background: url(imagens/main/pants.svg) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.item-6 {
+  background: url(imagens/main/pants.svg) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.item-7 {
+  background: url(imagens/main/headphones.svg) no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.item-8 {
+  background: url(imagens/main/sneakers.svg) no-repeat center center;
+  background-size: 80% 77%;
+}
