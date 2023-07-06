@@ -21,7 +21,7 @@
 
 body {
     /* width: 100%; */
-    background-color: #F9F8FE;
+    background-color: #F5F5F5;
 }
 
 header > p, a {
@@ -164,7 +164,6 @@ nav a:hover {
 
 #text {
   margin-left: 100px;
-  padding-right: 100px;
 }
 
 #text #ofertas {
@@ -259,10 +258,10 @@ nav a:hover {
     border: 1px solid #D8E3F2;
     border-radius: 8px;
     background: #D8E3F2;
-    width: 405px;
+    width: 370px;
     height: 250px;
     flex-shrink: 0;
-    margin-right: 32px;
+    margin-right: 12px;
     margin-bottom: 12px;
   }
 
@@ -333,7 +332,7 @@ nav a:hover {
     letter-spacing: 0.75px;
   }
 
-  /* container-3 */
+  /* DESTAQUES-2 */
 
 #destaque-2 {
   margin: 0;
@@ -342,9 +341,8 @@ nav a:hover {
 
 .container-3 {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  position: relative;
+  justify-content: center;
   /* margin: 20px 360px; */
 
 }
@@ -358,75 +356,75 @@ nav a:hover {
   box-shadow: 0px 0px 15px rgba(46, 46, 46, 0.225);
   margin-top: 40px;
   margin-right: 48px;
-}
-
-.item-4 {
-  background: #fff url(imagens/main/tshirt.svg) no-repeat center center;
-  
-
-}
-
-.item-5 {
-  background: #fff url(imagens/main/pants.svg) no-repeat center center;
   
 }
 
-.item-6 {
-  background: #fff url(imagens/main/pants.svg) no-repeat center center;
-  
-}
-
-.item-7 {
-  background: #fff url(imagens/main/headphones.svg) no-repeat center center;
-  
-}
-
-.item-8 {
-  background: #fff url(imagens/main/sneakers.svg) no-repeat center center;
- 
-}
-
-.subtitulo{
-  padding-top: 10px;
-  margin-left: 327px;
-  margin-right: 396px;
-}
-.subtitulo ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
-
-.subtitulo #p1 {
-  padding-right: 86px;
-}
-
-.subtitulo #p2 {
-  padding-right: 104px;
-}
-
-.subtitulo #p3 {
-  padding-right: 82px;
-}
-
-.subtitulo #p4 {
-  padding-right: 85px;
-}
-
-.subtitulo #p5 {
-  
-}
-
-.subtitulo a {
-  color: var(--cor05);
+.icon a {
   text-decoration: none;
+  color: #474747;
   text-align: center;
-  font-size: 14px;
   font-family: Inter;
+  font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 0.75px;
+}
+
+.item-4 {
+  background: url(imagens/main/tshirt.svg) no-repeat center center;
+  position: relative;
+
+}
+
+.item-4 > a {
+  position: absolute;
+  top: 110px;
+  left: 15px;
+} 
+
+.item-5 {
+  background: url(imagens/main/pants.svg) no-repeat center center;
+  position: relative;
+}
+
+.item-5 > a {
+  position: absolute;
+  top: 110px;
+  left: 28px;
+}
+
+.item-6 {
+  background: url(imagens/main/pants.svg) no-repeat center center;
+  position: relative;
+}
+
+.item-6 > a {
+  position: absolute;
+  top: 110px;
+  left: 30px;
+}
+
+.item-7 {
+  background: url(imagens/main/headphones.svg) no-repeat center center;
+  position: relative;
+}
+
+.item-7 > a {
+  position: absolute;
+  top: 110px;
+  left: 12px;
+}
+
+.item-8 {
+  background: url(imagens/main/sneakers.svg) no-repeat center center;
+  position: relative;
+}
+
+.item-8 > a {
+  position: absolute;
+  top: 110px;
+  left: 10px;
 }
 
 /* Container-4 */
@@ -451,4 +449,3 @@ nav a:hover {
   margin-right: 24px;
   margin-bottom: 24px;
 }
-
