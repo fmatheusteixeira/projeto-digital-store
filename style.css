@@ -21,7 +21,11 @@
 
 body {
     /* width: 100%; */
+<<<<<<< HEAD
     background-color: #F9F8FE;
+=======
+    background-color: #F5F5F5;
+>>>>>>> 793fe9f54ee55b7a88332e959304cfdeb7f1fdac
 }
 
 header > p, a {
@@ -342,6 +346,7 @@ nav a:hover {
 
 .container-3 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   flex-wrap: wrap;
   position: relative;
@@ -358,15 +363,43 @@ nav a:hover {
   box-shadow: 0px 0px 15px rgba(46, 46, 46, 0.225);
   margin-top: 40px;
   margin-right: 48px;
+<<<<<<< HEAD
 }
 
 .item-4 {
   background: #fff url(imagens/main/tshirt.svg) no-repeat center center;
   
+=======
+  
+}
+
+.icon a {
+  text-decoration: none;
+  color: #474747;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+}
+
+.item-4 {
+  background: url(imagens/main/tshirt.svg) no-repeat center center;
+  position: relative;
+>>>>>>> 793fe9f54ee55b7a88332e959304cfdeb7f1fdac
 
 }
 
+.item-4 > a {
+  position: absolute;
+  top: 110px;
+  left: 15px;
+} 
+
 .item-5 {
+<<<<<<< HEAD
   background: #fff url(imagens/main/pants.svg) no-repeat center center;
   
 }
@@ -427,6 +460,49 @@ nav a:hover {
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 0.75px;
+=======
+  background: url(imagens/main/pants.svg) no-repeat center center;
+  position: relative;
+}
+
+.item-5 > a {
+  position: absolute;
+  top: 110px;
+  left: 28px;
+}
+
+.item-6 {
+  background: url(imagens/main/pants.svg) no-repeat center center;
+  position: relative;
+}
+
+.item-6 > a {
+  position: absolute;
+  top: 110px;
+  left: 30px;
+}
+
+.item-7 {
+  background: url(imagens/main/headphones.svg) no-repeat center center;
+  position: relative;
+}
+
+.item-7 > a {
+  position: absolute;
+  top: 110px;
+  left: 12px;
+}
+
+.item-8 {
+  background: url(imagens/main/sneakers.svg) no-repeat center center;
+  position: relative;
+}
+
+.item-8 > a {
+  position: absolute;
+  top: 110px;
+  left: 10px;
+>>>>>>> 793fe9f54ee55b7a88332e959304cfdeb7f1fdac
 }
 
 /* Container-4 */
