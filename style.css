@@ -20,12 +20,7 @@
 }
 
 body {
-    /* width: 100%; */
-<<<<<<< HEAD
-    background-color: #F9F8FE;
-=======
-    background-color: #F5F5F5;
->>>>>>> 793fe9f54ee55b7a88332e959304cfdeb7f1fdac
+    background: #F9F8FE;
 }
 
 header > p, a {
@@ -363,21 +358,13 @@ nav a:hover {
   box-shadow: 0px 0px 15px rgba(46, 46, 46, 0.225);
   margin-top: 40px;
   margin-right: 48px;
-<<<<<<< HEAD
-}
-
-.item-4 {
-  background: #fff url(imagens/main/tshirt.svg) no-repeat center center;
-  
-=======
-  
 }
 
 .icon a {
   text-decoration: none;
   color: #474747;
   text-align: center;
-  font-family: Inter;
+  font-family: 'Inter';
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -388,7 +375,6 @@ nav a:hover {
 .item-4 {
   background: url(imagens/main/tshirt.svg) no-repeat center center;
   position: relative;
->>>>>>> 793fe9f54ee55b7a88332e959304cfdeb7f1fdac
 
 }
 
@@ -399,69 +385,7 @@ nav a:hover {
 } 
 
 .item-5 {
-<<<<<<< HEAD
   background: #fff url(imagens/main/pants.svg) no-repeat center center;
-  
-}
-
-.item-6 {
-  background: #fff url(imagens/main/pants.svg) no-repeat center center;
-  
-}
-
-.item-7 {
-  background: #fff url(imagens/main/headphones.svg) no-repeat center center;
-  
-}
-
-.item-8 {
-  background: #fff url(imagens/main/sneakers.svg) no-repeat center center;
- 
-}
-
-.subtitulo{
-  padding-top: 10px;
-  margin-left: 327px;
-  margin-right: 396px;
-}
-.subtitulo ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
-
-.subtitulo #p1 {
-  padding-right: 86px;
-}
-
-.subtitulo #p2 {
-  padding-right: 104px;
-}
-
-.subtitulo #p3 {
-  padding-right: 82px;
-}
-
-.subtitulo #p4 {
-  padding-right: 85px;
-}
-
-.subtitulo #p5 {
-  
-}
-
-.subtitulo a {
-  color: var(--cor05);
-  text-decoration: none;
-  text-align: center;
-  font-size: 14px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 22px;
-  letter-spacing: 0.75px;
-=======
-  background: url(imagens/main/pants.svg) no-repeat center center;
   position: relative;
 }
 
@@ -490,7 +414,7 @@ nav a:hover {
 .item-7 > a {
   position: absolute;
   top: 110px;
-  left: 12px;
+  left: 9px;
 }
 
 .item-8 {
@@ -501,9 +425,28 @@ nav a:hover {
 .item-8 > a {
   position: absolute;
   top: 110px;
-  left: 10px;
->>>>>>> 793fe9f54ee55b7a88332e959304cfdeb7f1fdac
+  left: 35px;
 }
+
+.subtitulo {
+  padding-top: 10px;
+  margin-left: 327px;
+  margin-right: 396px;
+}
+
+.subtitulo a {
+  color: var(--cor05);
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.75px;
+  position: relative;
+}
+
 
 /* Container-4 */
 
@@ -515,6 +458,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  position: relative;
 
 }
 
@@ -523,7 +467,68 @@ nav a:hover {
   height: 321px;
   border: 1px solid #fff;
   border-radius: 4px;
-  background: #fff url(imagens/main/tenis-produto.png) no-repeat center center;
+  /* background: #fff url(imagens/main/tenis-produto.png) no-repeat 80% center; */
+  background-color: #fff;
   margin-right: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 158px;
+  position: relative;
+}
+
+.shoes > img {
+  position: absolute;
+  right: 30px;
+}
+
+.legenda-container-4 {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  position: absolute;
+  top: 330px;
+  
+}
+.legenda {
+  display: flex;
+  flex-direction: column;
+  padding-right: 33px;
+  padding-bottom: 403px;
+  columns: 2;
+
+}
+
+.legenda a {
+  text-decoration: none;
+  color: var(--cor05);
+  font-family: 'Inter';
+  font-size: 24px;
+  font-style: normal;
+  line-height: 38px;
+  letter-spacing: 0.75px;
+  
+}
+
+.legenda h4 {
+  color: #8f8f8f;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+}
+
+.legenda p {
+  color: var(--cor05);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.75px;
+}
+
+.legenda span {
+  color: #8f8f8f;
+  font-weight: 100;
+  text-decoration: line-through;
 }
