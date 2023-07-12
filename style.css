@@ -450,8 +450,36 @@ nav a:hover {
 
 /* Container-4 */
 
-#portfolio {
+
+#title-container-4 {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: s; */
   margin-top: 123px;
+  
+}
+
+#title-container-4 h2 {
+  margin-left: 100px;
+}
+
+#title-container-4 .ver-todos {
+  text-decoration: none;
+  line-height: 38px;
+  margin-top: 38px;
+  margin-bottom: 20px;
+  padding-left: 840px;
+  padding-right: 10px;
+  color: var(--cor01);
+  font-family: 'Inter';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.75px;
+}
+
+#title-container-4 .arrow {
+  padding-top: 45px;
 }
 
 .container-4 {
@@ -469,6 +497,7 @@ nav a:hover {
   border-radius: 4px;
   /* background: #fff url(imagens/main/tenis-produto.png) no-repeat 80% center; */
   background-color: #fff;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.219);
   margin-right: 24px;
   margin-bottom: 158px;
   position: relative;
@@ -476,7 +505,8 @@ nav a:hover {
 
 .shoes > img {
   position: absolute;
-  right: 30px;
+  top: 30px;
+  right: 25px;
 }
 
 .legenda-container-4 {
@@ -517,7 +547,7 @@ nav a:hover {
   letter-spacing: 0.75px;
 }
 
-.legenda p {
+.legenda > p {
   color: var(--cor05);
   font-family: Inter;
   font-size: 24px;
