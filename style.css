@@ -591,6 +591,51 @@ nav a:hover {
   padding-left: 67px;
 }
 
+.box-container-5 h3 {
+  color: var(--cor01);
+  font-family: 'Inter';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.75px;
+  padding-bottom: 17px;
+}
+
+.box-container-5 h2 {
+  color: var(--dark-gray-2, #474747);
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: 1px;
+}
+
+.box-container-5 p {
+  color: var(--cor02);
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.75px;
+  padding-top: 20px;
+}
+
+.box-container-5 a {
+  text-decoration: none;
+  color: var(--cor03);
+  background-color: #C92071;
+  border-radius: 8px;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.75px;
+  margin-top: 30px;
+}
 footer {
   height: 454px;
   background-color: var(--cor05);
