@@ -562,3 +562,36 @@ nav a:hover {
   font-weight: 100;
   text-decoration: line-through;
 }
+
+/*  CONTAINER-5 */
+
+.container-5 {
+  background-color: #fff;
+  height: 553px;
+  margin-top: 120px;
+}
+.content-container-5 {
+  display: flex;
+  border-radius: 466px;
+  background: url(imagens/main/Ellipse\ 11.png) no-repeat 15% -125%;
+  
+}
+
+.content-container-5 img {
+  width: 573px;
+  height: 330px;
+  margin-top: 87px;
+  margin-left: 52px;
+}
+
+.box-container-5 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 106px;
+  padding-left: 67px;
+}
+
+footer {
+  height: 454px;
+  background-color: var(--cor05);
+}
