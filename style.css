@@ -53,7 +53,7 @@ header > p, a {
 .input-image input[type="search"] {
 
     padding-right: 30px; /* Espaço para a imagem */
-    background-image: url(imagens/header/Search.png);
+    background-image: url(imagens/desktop/Search.png);
     margin-right: 5px;
     background-repeat: no-repeat;
     background-position: 98% center;
@@ -266,15 +266,15 @@ nav a:hover {
   }
 
   .item-1 {
-    background: #D8E3F2 url(imagens/main/camisa-starwars.png) no-repeat right bottom;    
+    background: #D8E3F2 url(imagens/desktop/camisa-starwars.png) no-repeat right bottom;    
   }
 
   .item-2 {
-    background: #D8E3F2 url(imagens/main/tenis.png) no-repeat right bottom;
+    background: #D8E3F2 url(imagens/desktop/tenis.png) no-repeat right bottom;
   }
 
   .item-3 {
-    background: #D8E3F2 url(imagens/main/headphone.png) no-repeat right bottom;
+    background: #D8E3F2 url(imagens/desktop/headphone.png) no-repeat right bottom;
   }
 
   .content {
@@ -373,7 +373,7 @@ nav a:hover {
 }
 
 .item-4 {
-  background: url(imagens/main/tshirt.svg) no-repeat center center;
+  background: url(imagens/desktop/tshirt.svg) no-repeat center center;
   position: relative;
 
 }
@@ -385,7 +385,7 @@ nav a:hover {
 } 
 
 .item-5 {
-  background: #fff url(imagens/main/pants.svg) no-repeat center center;
+  background: #fff url(imagens/desktop/pants.svg) no-repeat center center;
   position: relative;
 }
 
@@ -396,7 +396,7 @@ nav a:hover {
 }
 
 .item-6 {
-  background: url(imagens/main/pants.svg) no-repeat center center;
+  background: url(imagens/desktop/pants.svg) no-repeat center center;
   position: relative;
 }
 
@@ -407,7 +407,7 @@ nav a:hover {
 }
 
 .item-7 {
-  background: url(imagens/main/headphones.svg) no-repeat center center;
+  background: url(imagens/desktop/headphones.svg) no-repeat center center;
   position: relative;
 }
 
@@ -418,7 +418,7 @@ nav a:hover {
 }
 
 .item-8 {
-  background: url(imagens/main/sneakers.svg) no-repeat center center;
+  background: url(imagens/desktop/sneakers.svg) no-repeat center center;
   position: relative;
 }
 
@@ -573,7 +573,7 @@ nav a:hover {
 .content-container-5 {
   display: flex;
   border-radius: 466px;
-  background: url(imagens/main/Ellipse\ 11.png) no-repeat 15% -125%;
+  background: url(imagens/desktop/Ellipse\ 11.png) no-repeat 15% -125%;
   
 }
 

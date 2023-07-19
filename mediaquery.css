@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+    
+    .main-header-content .logo-digital {
+        width: 18px;
+        height: 18px;
+    }
+
+    .main-header-content #pesquisa {
+        display: none;
+    }
+    
+}
