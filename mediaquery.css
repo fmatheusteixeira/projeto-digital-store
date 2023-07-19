@@ -7,6 +7,15 @@
     .main-header-content .logo-digital {
         width: 18px;
         height: 18px;
+        
+    }
+
+    .logo h1 {
+        font-size: 19.852px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.199px;
     }
 
     .main-header-content #pesquisa {

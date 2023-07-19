@@ -38,10 +38,21 @@ header > p, a {
    
 }
 
-.logo-digital { 
-    width: 253px;
-    height: 44px;   
-    margin-right: 27px;   
+.logo {
+  display: flex;
+  flex-direction: row;
+  padding-right: 27px;
+}
+
+.logo h1 {
+  color: var(--cor01);
+  font-family: Inter;
+  font-size: 36.395px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.364px;
+  padding-left: 5px;
 }
 
 .input-image {
@@ -176,7 +187,7 @@ nav a:hover {
   letter-spacing: 0.75px;
 }
 
-#text h1 {
+#text h2 {
   color: var(--cor05);
   font-size: 64px;
   font-family: 'Inter';
