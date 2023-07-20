@@ -54,6 +54,10 @@
         
       }
 
+    .logo {
+        padding-right: 0px;
+    }  
+
     .logo h1 {
         width: 125px;
         font-size: 19.852px;
@@ -73,6 +77,7 @@
     #search-img {
         display: block;
         padding-right: 0px;
+        padding-left: 32px;
         /* position: absolute;
         left: 320px; */
     }

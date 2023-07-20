@@ -179,14 +179,14 @@ nav a:hover {
   /* background: lightblue url(imagens/main/Design\ sem\ nome.svg) no-repeat right center; */
   display: flex;
   align-items: center;
-
   background-color: #F5F5F5;
   height: 681px;
+  position: relative;
 }
 
 #text {
   margin-left: 100px;
-  padding-right: 100px;
+  padding-right: 30px;
 }
 
 #text #ofertas {
@@ -216,6 +216,7 @@ nav a:hover {
 }
 
 #text #lorem-text {
+  width: 515px;
   color: var(--cor05);
   font-size: 18px;
   font-family: 'Inter';
@@ -247,8 +248,13 @@ nav a:hover {
   letter-spacing: 0.75px;
 }
 
+.content2 {
+  padding-left: -50px;
+}
+
 #jordan-desktop {
-    margin-right: 91px;
+  margin-top: 91px;
+  margin-right: 80px;
 } 
 
 #jordan-mobile {
@@ -259,8 +265,8 @@ nav a:hover {
 .content3 #ornament-desktop {
     position: absolute;
     right: 35px;
-    top: 300px;
-    flex-basis: 20%;
+    top: 78px;
+  
 }
 
 .content3 #ornament-mobile {
