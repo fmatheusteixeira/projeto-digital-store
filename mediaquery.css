@@ -179,13 +179,17 @@
         width: 335px;
         margin: auto;
     }
-    .main-container .content3 > img {
+
+    .main-container .content3 > #ornament-desktop {display: none;}
+
+    .main-container .content3 > #ornament-mobile {
+        display: block;
         width: 140px;
         height: 140px;
         position: absolute;
         top: 20px;
         right: -80px;
-        box-sizing: border-box;
+
     }
     section {
         display: none;

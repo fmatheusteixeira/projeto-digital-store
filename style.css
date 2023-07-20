@@ -256,11 +256,15 @@ nav a:hover {
 }
 
 
-.content3 img {
+.content3 #ornament-desktop {
     position: absolute;
     right: 35px;
     top: 300px;
     flex-basis: 20%;
+}
+
+.content3 #ornament-mobile {
+  display: none;
 }
 
  /* DESTAQUES-1 */
