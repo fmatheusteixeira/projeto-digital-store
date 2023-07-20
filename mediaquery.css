@@ -2,24 +2,182 @@
 
 /* Mobile */
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 375px) and (max-width: 760px){ 
+   
+    body {
+        background-color: white;
+    }
+
+    /* HEADER */
+
+    #mobile-header {
+        display: flex;
+        /* justify-content: space-between; */
+        margin-left: 30px;
+        margin-top: 20px;
+      }
+
+    #mobile-header p {
+        font-family: 'Epilogue';
+        color: #222;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        padding-right: 228px;
+    }
+
+    #mobile-header img {
+        padding-right: 5px;
+    }
+
+    .main-header-content {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        position: relative;   
+        margin-left: 0px;
+    
+    }
     
     .main-header-content .logo-digital {
         width: 18px;
         height: 18px;
+        padding-left: 74px;
+        padding-top: 3px;
         
     }
 
+    #menu {
+        display: block;
+        padding-left: 20px;
+        
+      }
+
     .logo h1 {
+        width: 125px;
         font-size: 19.852px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
         letter-spacing: -0.199px;
+        /* padding-right: 32px; */
     }
 
-    .main-header-content #pesquisa {
+    .main-header-content input, .input-image {
         display: none;
+        margin-right: 0px;
+        
     }
     
+    #search-img {
+        display: block;
+        padding-right: 0px;
+        /* position: absolute;
+        left: 320px; */
+    }
+
+    .cadastro {
+        display: none;
+    }
+
+    .kart-button {
+        padding-left: 13px;
+        position: relative;
+    }
+
+    .kart-button span {
+        position: absolute;
+        left: 25px
+    }
+
+    nav {
+        display: none;
+    }
+
+    /* MAIN */
+
+    .main-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: start;
+        position: relative;
+        height: 662px;
+       
+    }
+
+    .main-container #jordan-image img {
+        width: 286px;
+        height: 168px;
+        padding-top: 60px;
+        margin-left: 15px;
+        margin-right: 45px;
+    }
+
+    #text {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+
+    #text #ofertas {
+        color: #C92071;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px; /* 157.143% */
+        letter-spacing: 0.75px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    #text h2 {
+        width: 297px;
+        font-family: 'Inter';
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 50px; 
+        letter-spacing: 1px;
+        margin-left: 39px;
+        margin-right: 39px;
+        padding: 0px;
+       
+    }
+
+    #text #lorem-text {
+        width: 325px;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px; /* 157.143% */
+        letter-spacing: 0.25px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .button {
+        width: 335px;
+        margin: auto;
+    }
+    .main-container .content3 > img {
+        width: 140px;
+        height: 140px;
+        position: absolute;
+        top: 10px;
+        right: -80px;
+        box-sizing: border-box;
+    }
+    section {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
 }

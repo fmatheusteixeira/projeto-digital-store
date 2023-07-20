@@ -2,6 +2,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
 
 
 :root {
@@ -28,14 +29,21 @@ header > p, a {
     font-size: small;
 }
 
+#mobile-header {
+  display: none;
+}
+
 .main-header-content {
     display: flex;
     align-items: center;   
-    flex-wrap: wrap; 
     margin-left: 104px;
     margin-top: 42px;
     margin-bottom: 40px;
    
+}
+
+#menu {
+  display: none;
 }
 
 .logo {
@@ -53,6 +61,10 @@ header > p, a {
   line-height: normal;
   letter-spacing: -0.364px;
   padding-left: 5px;
+}
+
+#search-img {
+  display: none;
 }
 
 .input-image {
@@ -167,7 +179,7 @@ nav a:hover {
   /* background: lightblue url(imagens/main/Design\ sem\ nome.svg) no-repeat right center; */
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+
   background-color: #F5F5F5;
   height: 681px;
 }
