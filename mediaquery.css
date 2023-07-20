@@ -10,9 +10,8 @@
 
     /* HEADER */
 
-    #mobile-header {
+    /* #mobile-header {
         display: flex;
-        /* justify-content: space-between; */
         margin-left: 30px;
         margin-top: 20px;
       }
@@ -28,7 +27,7 @@
 
     #mobile-header img {
         padding-right: 5px;
-    }
+    } */
 
     .main-header-content {
         display: flex;
@@ -36,6 +35,8 @@
         /* justify-content: center; */
         position: relative;   
         margin-left: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     
     }
     
@@ -105,11 +106,16 @@
        
     }
 
-    .main-container #jordan-image img {
-        width: 286px;
-        height: 168px;
-        padding-top: 60px;
-        margin-left: 15px;
+    .content2 {
+        height: 260px;
+    }
+
+    .main-container #jordan-desktop {display: none;}
+
+    .main-container #jordan-mobile {
+        display: block;
+        margin-top: -10px;
+        margin-left: 32px;
         margin-right: 45px;
     }
 
@@ -130,11 +136,13 @@
         font-weight: 700;
         line-height: 22px; /* 157.143% */
         letter-spacing: 0.75px;
-        padding-top: 20px;
         padding-bottom: 10px;
     }
 
-    #text h2 {
+    #text #title-text {display: none;}
+
+    #text #title-text-mobile {
+        display: block;
         width: 297px;
         font-family: 'Inter';
         font-size: 40px;
@@ -142,20 +150,27 @@
         font-weight: 800;
         line-height: 50px; 
         letter-spacing: 1px;
-        margin-left: 39px;
-        margin-right: 39px;
+        margin: auto;
         padding: 0px;
+        white-space: nowrap;
        
     }
 
     #text #lorem-text {
+        display: none;
+    }
+
+    #text #lorem-text-mobile {
+        display: block;
         width: 325px;
         font-family: 'Inter';
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
-        line-height: 22px; /* 157.143% */
+        line-height: 22px;
         letter-spacing: 0.25px;
+        padding-top: 20px;
+        padding-bottom: 40px;
         margin-left: 25px;
         margin-right: 25px;
     }
@@ -168,7 +183,7 @@
         width: 140px;
         height: 140px;
         position: absolute;
-        top: 10px;
+        top: 20px;
         right: -80px;
         box-sizing: border-box;
     }

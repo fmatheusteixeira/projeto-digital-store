@@ -199,7 +199,7 @@ nav a:hover {
   letter-spacing: 0.75px;
 }
 
-#text h2 {
+#text #title-text {
   color: var(--cor05);
   font-size: 64px;
   font-family: 'Inter';
@@ -211,6 +211,10 @@ nav a:hover {
   padding-bottom: 20px;
 }
 
+#text #title-text-mobile {
+  display: none;
+}
+
 #text #lorem-text {
   color: var(--cor05);
   font-size: 18px;
@@ -220,6 +224,10 @@ nav a:hover {
   line-height: 34px;
   letter-spacing: 0.75px;
   padding-bottom: 40px;
+}
+
+#text #lorem-text-mobile {
+  display: none;
 }
 
 .button {
@@ -239,9 +247,13 @@ nav a:hover {
   letter-spacing: 0.75px;
 }
 
-#jordan-image img {
+#jordan-desktop {
     margin-right: 91px;
 } 
+
+#jordan-mobile {
+  display: none;
+}
 
 
 .content3 img {
