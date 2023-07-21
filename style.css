@@ -19,9 +19,10 @@
     padding: 0;
     
 }
+  
 
 body {
-    background: #F9F8FE;
+    background: #fff;
 }
 
 header > p, a {
@@ -173,6 +174,10 @@ nav a:hover {
     text-decoration: underline;
  }
 
+ main {
+  background-color: #F9F8FE;
+ }
+
 /* CONTAINER PRINCIPAL */
 
 .main-container {
@@ -249,12 +254,12 @@ nav a:hover {
 }
 
 .content2 {
-  padding-left: -50px;
+  padding-right: 90px;
 }
 
 #jordan-desktop {
-  margin-top: 91px;
-  margin-right: 80px;
+  margin-top: 30px;
+  
 } 
 
 #jordan-mobile {
@@ -273,7 +278,14 @@ nav a:hover {
   display: none;
 }
 
+#slide {
+  position: absolute;
+  top: 616px;
+  left: 681px;
+}
+
  /* DESTAQUES-1 */
+
 
  .content-container-2 {
     display: flex;
@@ -386,9 +398,8 @@ nav a:hover {
 
 .content-container-3 {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   position: relative;
   /* margin: 20px 360px; */
 
@@ -500,8 +511,6 @@ iframe {
 
 #title-container-4 {
   display: flex;
-  flex-direction: row;
-  /* justify-content: s; */
   margin-top: 123px;
   
 }
@@ -515,7 +524,7 @@ iframe {
   line-height: 38px;
   margin-top: 38px;
   margin-bottom: 20px;
-  padding-left: 840px;
+  padding-left: 895px;
   padding-right: 10px;
   color: var(--cor01);
   font-family: 'Inter';
@@ -530,9 +539,10 @@ iframe {
 }
 
 .content-container-4 {
-  display: flex;
-  justify-content: center;
-  position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
 
 }
 
@@ -544,7 +554,7 @@ iframe {
   /* background: #fff url(imagens/main/tenis-produto.png) no-repeat 80% center; */
   background-color: #fff;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.219);
-  margin-right: 24px;
+  margin-right: 18px;
   margin-bottom: 158px;
   position: relative;
 }
@@ -792,4 +802,20 @@ footer {
 
 .info-4 #adress {
   padding-bottom: 14px;
+}
+
+footer svg {
+  padding-top: 34px;
+  margin-left: 100px;
+}
+
+footer h4 {
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px;
+  padding-top: 23px;
+  margin-bottom: 22px;
 }
