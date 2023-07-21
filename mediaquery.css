@@ -195,12 +195,192 @@
         position: absolute;
         top: 20px;
         right: 5px;
+    
+    }
+
+    .main-container #slide {
+        width: 78px;
+        height: 12px;
+        position: absolute;
+        top: 610px;
+        left: 149px;
+    }
+
+        /* CONTAINER-2 */
+
+    .container-2 {
+        display: block;
+    }
+
+    .title, .destaque-2 {
+        font-family: 'Inter';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: left;
+        margin-top: 40px;
+        margin-bottom: -10px;
+        margin-left: 20px;
+    }
+
+    .content-container-2 .content {
+        margin-top: -10px;
+    }
+
+    .item p#off {
+        margin-top: 20px;
+        padding-bottom: 10px;
+        height: 22px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+    }
+
+    .content-container-2 .content h3 {
+        font-family: 'Inter';
+        font-size: 28px;
+        font-style: normal;
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+    }
+
+    .container-2 .item {
+        width: 338px;
+        height: 212px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .container-2 .item-1 {
+        background-image: url(imagens/mobile/camisa-starwars.png);
+        background-repeat: no-repeat;   
+    }
+
+    .container-2 .item-2 {
+        background-image: url(imagens/mobile/tenis.png);
+        background-repeat: no-repeat;   
+    }
+
+    .container-2 .item-3 {
+        background-image: url(imagens/mobile/headphone.png);
+        background-repeat: no-repeat;   
+    }
+        /* CONTAINER-3 */
+    
+    .container-3 {
+        display: block;
+        height: 200px;
+        margin-top: -40px;
+    }
+
+    .container-3 #destaque-2 {
+        text-align: start;
+        margin-left: 20px;
+        margin-top: 0px;
 
     }
-    section {
+    .container-3 .icon {
         display: none;
     }
 
+    .container-3 iframe {
+        display: block;
+        
+    }
+
+    .container-4 {
+        display: block ;
+    }
+
+    .content-container-4 {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+               
+    }
+
+    #title-container-4 {
+        margin-top: 50px;
+    }
+
+    #title-container-4 #portfolio {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        margin-left: 20px;
+        
+    }
+
+    #title-container-4 .ver-todos {
+        font-family: 'Inter';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        padding-left: 88px;
+    }
+
+    #title-container-4 .arrow {
+        width: 24px;
+        height: 24px;
+    }
+    .shoes {
+        width: 147px;
+        height: 161px;
+        margin-right: 0px;
+        margin-bottom: 133px;
+        
+    }
+
+    .shoes img {
+        width: 127px;
+        height: 86px;
+    }
+
+    .legenda-container-4 {
+        display: flex;
+        justify-content: start;
+        flex-flow: row wrap;
+        position: absolute;
+        columns: 2;
+        top: 182px;
+}
+    
+
+    .legenda-container-4 h4 {
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        padding-bottom: 2px;
+        line-height: 0px;
+    }
+
+    .legenda-container-4 a {
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+
+        
+    }
+    .legenda {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        padding-right: 40px;
+        padding-bottom: 245px;
+        columns: 2;
+    }
+    
+
+    .legenda > p {
+        font-size: 16px;  
+        line-height: 10px; 
+    }
+    
+    section {
+        display: none;
+    }
     footer {
         display: none;
     }
