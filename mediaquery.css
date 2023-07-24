@@ -102,6 +102,10 @@
 
     /* MAIN */
 
+    main {
+        background-color: #F8F8F8;
+    }
+
     .main-container {
         display: flex;
         flex-direction: column-reverse;
@@ -401,21 +405,124 @@
     
     .container-5 {
         display: block;
+        margin-top: 0px;
+        height: 705px;
     }
 
     .content-container-5 {
         display: flex;
         flex-direction: column;
-        background: url(imagens/desktop/Ellipse\ 11.png) no-repeat 65px 55px;
-        background-size: 70% 32%;
+        background: url(imagens/desktop/Ellipse\ 11.png) no-repeat 50px 50px;
+        background-size: 75% 40%;
     }
 
     .content-container-5 img {
         width: 301px;
         height: 173px;
+        margin-left: 32px;
     }
+
+    .box-container-5 {
+        padding-left: 0px;
+        margin-left: 20px;
+        margin-right: 46px;
+    }
+
+    .box-container-5 h3 {
+        color: var(--warning, #F6AA1C);
+        font-family: 'Inter';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 22px; 
+        letter-spacing: 0.75px;
+        padding-bottom: 10px;
+    }
+
+    .box-container-5 h2 {
+        font-family: Inter;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        padding-bottom: 20px;
+
+    }
+    .box-container-5 .lorem-desktop {display: none;}
+
+    .box-container-5 .lorem-mobile {
+        color: #474747;
+        display: block;
+        font-family: 'Inter';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        
+    }
+
     footer {
+        display: block;
+        width: 375px;
+        height: 805px;
+        margin-top: 50px;
+    }
+
+    #main-footer {
+        flex-direction: column;
+    }
+
+    .content-footer {
+        flex-direction: column;
+        margin-top: 40px;
+        margin-left: 20px;
+        padding-left: 0px;
+    }
+
+    .content-footer h2 {
+        padding-bottom: 10px;
+    }
+
+    .content-footer li {
+        line-height: 30px;
+    }
+
+    .info-1 p {
+        padding-top: 19px;
+        padding-bottom: 30px;
+    }
+
+    #informacoes {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .info-2 {
+        padding-right: 32px;
+    } 
+
+    .logo-branca h2 {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    .info-4 {
+        padding-top: 
+    }
+
+    .info-4 .adress1 {
         display: none;
+    }
+
+    .info-4 .adress2 {
+        display: block;
+        padding-bottom: 30px;
+    }
+
+    footer svg {
+        width: 322px;
+        height: 1px;
+        margin-left: 26px;
+        
     }
 
 }

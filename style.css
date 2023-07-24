@@ -659,14 +659,14 @@ iframe {
 
 .box-container-5 h2 {
   color: var(--dark-gray-2, #474747);
-font-family: Inter;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-letter-spacing: 1px;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
-.box-container-5 p {
+.box-container-5 .lorem-desktop {
   color: var(--cor02);
   font-family: 'Inter';
   font-size: 16px;
@@ -675,6 +675,8 @@ letter-spacing: 1px;
   letter-spacing: 0.75px;
   padding-top: 20px;
 }
+
+.box-container-5 .lorem-mobile {display: none;}
 
 .box-container-5 a {
   text-decoration: none;
@@ -800,9 +802,11 @@ footer {
   line-height: 26px;  
 }
 
-.info-4 #adress {
+.info-4 .adress1 {
   padding-bottom: 14px;
 }
+
+.info-4 .adress2 {display: none;}
 
 footer svg {
   padding-top: 34px;
