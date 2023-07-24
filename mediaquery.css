@@ -249,7 +249,7 @@
     }
 
     .container-2 .item {
-        width: 338px;
+        width: 346px;
         height: 212px;
         margin-left: 20px;
         margin-right: 20px;
@@ -321,7 +321,8 @@
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
-        padding-left: 88px;
+        padding-left: 102px;
+        padding-right: 2px;
     }
 
     #title-container-4 .arrow {
@@ -329,7 +330,7 @@
         height: 24px;
     }
     .shoes {
-        width: 163px;
+        width: 168px;
         height: 179px;
         margin-right: 0px;
         margin-bottom: 133px;
@@ -338,7 +339,7 @@
 
     .shoes img {
         width: 127px;
-        height: 86px;
+        height: 95px;
     }
 
     .shoes-1 {
@@ -374,10 +375,9 @@
     .legenda {
         display: flex;
         flex-direction: column;
-        margin-left: 20px;
-        padding-right: 27px;
+        margin-left: 25px;
+        padding-right: 25px;
         padding-bottom: 245px;
-        columns: 2;
     }
     
 
