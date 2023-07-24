@@ -32,7 +32,7 @@
     .main-header-content {
         display: flex;
         flex-direction: row;
-        /* justify-content: center; */
+        justify-content: center;
         position: relative;   
         margin-left: 0px;
         margin-top: 20px;
@@ -88,6 +88,7 @@
 
     .kart-button {
         padding-left: 13px;
+        margin-right: 20px;
         position: relative;
     }
 
@@ -201,13 +202,11 @@
         right: 5px;
     
     }
-
-    .main-container #slide {
-        width: 78px;
-        height: 12px;
-        position: absolute;
-        top: 610px;
-        left: 149px;
+     .main-container #slide {
+        top: 600px;
+        left: auto;
+        right: auto;
+        
     }
 
         /* CONTAINER-2 */
@@ -413,13 +412,16 @@
         display: flex;
         flex-direction: column;
         background: url(imagens/desktop/Ellipse\ 11.png) no-repeat 50px 50px;
-        background-size: 75% 40%;
+        background-size: 281px 280px;
+        
+        
     }
 
     .content-container-5 img {
         width: 301px;
         height: 173px;
         margin-left: 32px;
+        margin-top: 82px;
     }
 
     .box-container-5 {
@@ -461,7 +463,7 @@
 
     footer {
         display: block;
-        width: 375px;
+        width: 100%;
         height: 805px;
         margin-top: 50px;
     }
@@ -525,4 +527,14 @@
         
     }
 
+}
+
+@media screen and (min-width: 760px) and (max-width: 992px) {
+    body {
+        /* width: 820px; */
+    }
+
+    .main-header-content {
+
+    }
 }
