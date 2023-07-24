@@ -67,13 +67,51 @@
         letter-spacing: -0.199px;
         /* padding-right: 32px; */
     }
+    .main-header-content input#entrar, .input-image-desktop {display: none;}
 
-    .main-header-content input, .input-image {
+    #search {
         display: none;
         margin-right: 0px;
+        width: 315px;
+        margin: 20px;
+        
         
     }
-    
+
+    #search input[type="search"] {
+
+        padding-right: 30px; /* Espaço para a imagem */
+        background-image: url(imagens/desktop/Search.png);
+        margin-right: 5px;
+        background-repeat: no-repeat;
+        background-position: 96% center;
+        background-size: 24px 24px; /* Tamanho da imagem */
+    }
+
+    #search > input {
+        background-color: rgba(144, 144, 144, 0.194);
+        border: 0.5px  #fff;
+        border-radius: 8px;
+        width: 100%;
+        height: 60px;
+        padding: 0px 20px;
+              
+    }
+
+    #pesquisa-mobile::placeholder {
+        color: darkgrey;
+        padding-left: 5px;
+    }
+
+    button {
+        background-color: #fff;
+        border: none;
+    }
+
+    button :active {
+        color: #C92071;
+    }
+
     #search-img {
         display: block;
         padding-right: 0px;

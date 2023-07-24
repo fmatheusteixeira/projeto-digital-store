@@ -68,13 +68,13 @@ header > p, a {
   display: none;
 }
 
-.input-image {
-    flex-basis: 40%;
+.input-image-desktop {
+    /* flex-basis: 40%; */
     margin-right: 48px;
     width: 559px;
 }
 
-.input-image input[type="search"] {
+.input-image-desktop input[type="search"] {
 
     padding-right: 30px; /* Espaço para a imagem */
     background-image: url(imagens/desktop/Search.png);
@@ -84,7 +84,7 @@ header > p, a {
     background-size: 24px 24px; /* Tamanho da imagem */
 }
 
-.input-image > input {
+.input-image-desktop > input {
     background-color: rgba(144, 144, 144, 0.194);
     border: 0.5px  #fff;
     border-radius: 8px;
@@ -145,6 +145,8 @@ input[type="button"] {
     left: 14px;
     top: -7px;
 }
+
+#search {display: none;}
 
 nav ul {
     display: flex;   

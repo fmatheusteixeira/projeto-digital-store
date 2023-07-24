@@ -28,21 +28,25 @@
                     <h1>Digital Store</h1>
                 </div>
 
-                <img src="imagens/desktop/Search.png" alt="search-img" id="search-img">
+                <button onclick="clickSearch()"><img src="imagens/desktop/Search.png" alt="search-img" id="search-img"></button>
 
-                <div class="input-image">                   
+
+                <div class="input-image-desktop">                   
                     <input type="search" name="pesquisa" id="pesquisa" placeholder="Pesquise aqui..">
                 </div>   
 
                 <a href="#" target="" rel="" class="cadastro">Cadastre-se</a>
                 
-                <input type="button" value="Entrar">
+                <input type="button" value="Entrar" id="entrar">
 
                 <button class="kart-button">
                     <a href="#"><img src="imagens/desktop/Buy.svg" alt="carrinho"></a>
                     <span>2</span>
                 </button>
             </div>
+            <div id="search">                   
+                <input type="search" name="pesquisa" id="pesquisa-mobile" placeholder="Pesquisar produto..">
+            </div>   
         </div>
         <nav>
             <ul>
@@ -307,6 +311,16 @@
           </svg>
           <h4>@ 2022 Digital College</h4>
     </footer>
-    
+    <script>
+        function clickSearch() {
+            if (search.style.display == 'none') {
+                search.display = 'block'
+            }
+            
+            else {
+                search.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html> 
