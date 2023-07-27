@@ -759,6 +759,10 @@ footer {
   height: 20px;
 }
 
+#informacoes {
+ flex-direction: row; 
+}
+
 .info-2 {
   display: flex;
   flex-direction: column;
