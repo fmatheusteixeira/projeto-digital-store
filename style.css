@@ -5,6 +5,8 @@
   @import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
 
 
+/* @media screen and (min-width: 992px) { */
+    
 :root {
     --cor01: #C92071;
     --cor02: #474747;
@@ -26,8 +28,8 @@ body {
 }
 
 header > p, a {
-    font-family: var(--font01);
-    font-size: small;
+  font-family: var(--font01);
+  font-size: small;
 }
 
 #mobile-header {
@@ -35,12 +37,11 @@ header > p, a {
 }
 
 .main-header-content {
-    display: flex;
-    align-items: center;   
-    margin-left: 104px;
-    margin-top: 42px;
-    margin-bottom: 40px;
-   
+  display: flex;
+  align-items: center;   
+  margin-left: 104px;
+  margin-top: 42px;
+  margin-bottom: 40px;
 }
 
 #menu {
@@ -54,6 +55,7 @@ header > p, a {
 }
 
 .logo h1 {
+  width: 217px;
   color: var(--cor01);
   font-family: Inter;
   font-size: 36.395px;
@@ -64,24 +66,35 @@ header > p, a {
   padding-left: 5px;
 }
 
+.kart-button-tablet {display: none;}
+
+button {
+  display: none;
+}
+
+.campos {
+  display: flex;
+  flex-direction: row;
+}
+
 #search-img {
   display: none;
 }
 
 .input-image-desktop {
-    /* flex-basis: 40%; */
-    margin-right: 48px;
-    width: 559px;
+  /* flex-basis: 40%; */
+  margin-right: 48px;
+  width: 559px;
 }
 
 .input-image-desktop input[type="search"] {
 
-    padding-right: 30px; /* Espaço para a imagem */
-    background-image: url(imagens/desktop/Search.png);
-    margin-right: 5px;
-    background-repeat: no-repeat;
-    background-position: 98% center;
-    background-size: 24px 24px; /* Tamanho da imagem */
+  padding-right: 30px; /* Espaço para a imagem */
+  background-image: url(imagens/desktop/Search.png);
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-position: 98% center;
+  background-size: 24px 24px; /* Tamanho da imagem */
 }
 
 .input-image-desktop > input {
@@ -107,7 +120,9 @@ header > p, a {
 }
 
 .cadastro {
-   color: darkgray;
+  width: 102px;
+  color: darkgray;
+  line-height: 32px;
   
 }
 
@@ -122,10 +137,12 @@ input[type="button"] {
     border: 1px solid #C92071;
     border-radius: 5px;
     margin-left: 30px;
-    margin-right: 72px; 
+    margin-right: 72px;
+    width: 114px; 
     cursor: pointer; 
 }
 .kart-button {
+    display: block;
     border: none;
     background-color: white;
     margin-right: 104px;
@@ -256,12 +273,14 @@ nav a:hover {
 }
 
 .content2 {
-  padding-right: 90px;
+  /* padding-right: 90px; */
 }
 
 #jordan-desktop {
-  margin-top: 30px;
-  
+  width: 47vw;
+  position: absolute;
+  top: 100px;
+  right: 185px;
 } 
 
 #jordan-mobile {
@@ -273,6 +292,7 @@ nav a:hover {
     position: absolute;
     right: 35px;
     top: 78px;
+    width: 10vw;
   
 }
 
@@ -282,8 +302,8 @@ nav a:hover {
 
 #slide {
   position: absolute;
-  top: 616px;
-  left: 681px;
+  top: 600px;
+  left: 50%;
 }
 
  /* DESTAQUES-1 */
@@ -513,21 +533,35 @@ iframe {
 
 #title-container-4 {
   display: flex;
+  justify-content: space-between;
   margin-top: 123px;
+  margin-left: 100px;
+  margin-right: 100px;
   
 }
 
 #title-container-4 h2 {
-  margin-left: 100px;
+  width: 210px;
+  margin-left: 0px;
 }
 
 #title-container-4 .ver-todos {
   text-decoration: none;
-  line-height: 38px;
+  /* line-height: 38px; */
   margin-top: 38px;
   margin-bottom: 20px;
-  padding-left: 895px;
   padding-right: 10px;
+  /* color: var(--cor01);
+  font-family: 'Inter';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.75px; */
+  width: 88px;
+  
+}
+
+#title-container-4 a {
   color: var(--cor01);
   font-family: 'Inter';
   font-size: 18px;
@@ -629,18 +663,16 @@ iframe {
   margin-top: 120px;
 }
 .content-container-5 {
-  display: flex;
-  border-radius: 466px;
-  background: url(imagens/desktop/Ellipse\ 11.png) no-repeat 15% -125%;
-  
+  display: flex; 
 }
 
 
 .content-container-5 img {
   width: 573px;
   height: 330px;
-  margin-top: 87px;
+  padding-top: 115px;
   margin-left: 52px;
+  background: url(imagens/desktop/Ellipse\ 11.png) no-repeat 32% -243%;
 }
 
 .box-container-5 {
@@ -760,7 +792,8 @@ footer {
 }
 
 #informacoes {
- flex-direction: row; 
+  display: flex;
+  flex-direction: row; 
 }
 
 .info-2 {
@@ -815,9 +848,11 @@ footer {
 
 .info-4 .adress2 {display: none;}
 
-footer svg {
+footer .rectangle-footer {
+  width: 1210px;
   padding-top: 34px;
   margin-left: 100px;
+  margin-right: 100px;
 }
 
 footer h4 {
@@ -829,4 +864,6 @@ footer h4 {
   line-height: 0px;
   padding-top: 23px;
   margin-bottom: 22px;
+}
+
 }

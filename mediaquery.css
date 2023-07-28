@@ -69,7 +69,7 @@
     }
     .main-header-content input#entrar, .input-image-desktop {display: none;}
 
-    #search {
+    /* #search {
         display: none;
         margin-right: 0px;
         width: 315px;
@@ -80,12 +80,12 @@
 
     #search input[type="search"] {
 
-        padding-right: 30px; /* Espaço para a imagem */
+        padding-right: 30px; 
         background-image: url(imagens/desktop/Search.png);
         margin-right: 5px;
         background-repeat: no-repeat;
         background-position: 96% center;
-        background-size: 24px 24px; /* Tamanho da imagem */
+        background-size: 24px 24px; 
     }
 
     #search > input {
@@ -96,7 +96,7 @@
         height: 60px;
         padding: 0px 20px;
               
-    }
+    } */
 
     #pesquisa-mobile::placeholder {
         color: darkgrey;
@@ -106,6 +106,7 @@
     button {
         background-color: #fff;
         border: none;
+        display: block;
     }
 
     button :active {
@@ -132,7 +133,9 @@
 
     .kart-button span {
         position: absolute;
-        left: 25px
+        left: 25px;
+        
+    
     }
 
     nav {
@@ -567,12 +570,31 @@
 
 }
 
-@media screen and (min-width: 760px) and (max-width: 992px) {
+@media screen and (min-width: 761px) and (max-width: 992px) {
     body {
         /* width: 820px; */
     }
 
-    .main-header-content {
-
+    #menu {
+        display: block;
+        padding-right: 20px;
     }
+
+    .logo h1 {
+        display: none;
+    }
+
+    .cadastro {
+        width: 88px;
+    }
+
+    input[type="button"] {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    nav li {
+        display: none;
+    }
+
 }
