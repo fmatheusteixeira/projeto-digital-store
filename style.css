@@ -340,8 +340,9 @@ nav a:hover {
     width: 405px;
     height: 250px;
     flex-shrink: 0;
-    margin-right: 12px;
+    gap: 12px;
     margin-bottom: 12px;
+    box-sizing: border-box;
   }
 
   .item-1 {
